@@ -1,0 +1,205 @@
+/// - Mode 1
+C03
+C07
+1 p- Monster_000.png
+4 p- Monster_000.png
+C04
+SF2
+4 p- Monster_001.png
+C1A
+C1F
+4 p- Monster_002.png
+4 p- Monster_000.png
+C01
+C06
+1 p- Monster_000.png
+C0D
+~~~
+/// - Mode 3
+C03
+C07
+1 p- Monster_000.png
+4 p- Monster_000.png
+C04
+SF2
+4 p- Monster_001.png
+C09
+C20
+2 p- Monster_002.png
+4 p- Monster_000.png
+C01
+C06
+1 p- Monster_000.png
+C0D
+~~~
+/// - Mode 5
+C03
+C07
+1 p- Monster_000.png
+4 p- Monster_000.png
+SF2
+4 p- Monster_001.png
+C05
+2 p- Monster_002.png
+4 p- Monster_000.png
+C01
+C06
+1 p- Monster_000.png
+C0D
+~~~
+/// - Mode 6
+C03
+C07
+1 p- Monster_000.png
+4 p- Monster_000.png
+SF2
+4 p- Monster_001.png
+C05
+2 p- Monster_002.png
+4 p- Monster_000.png
+C01
+C06
+1 p- Monster_000.png
+C0D
+~~~
+/// - Mode 7
+C02
+1 p- Monster_000.png
+C0E
+SA0
+2 p- Monster_003.png
+C14
+2 p- Monster_004.png
+SA1
+2 p- Monster_005.png
+2 p- Monster_006.png
+SA2
+2 p- Monster_007.png
+2 p- Monster_008.png
+SA3
+2 p- Monster_009.png
+2 p- Monster_010.png
+SA4
+2 p- Monster_011.png
+2 p- Monster_012.png
+C15
+SA5
+2 p- Monster_013.png
+2 p- Monster_014.png
+SA0
+2 p- Monster_015.png
+2 p- Monster_016.png
+2 p- Monster_017.png
+C01
+C15
+SA0
+2 p- Monster_018.png
+2 p- Monster_019.png
+SA1
+2 p- Monster_020.png
+2 p- Monster_021.png
+SA2
+2 p- Monster_022.png
+2 p- Monster_023.png
+SA3
+2 p- Monster_024.png
+2 p- Monster_025.png
+SA4
+2 p- Monster_026.png
+2 p- Monster_027.png
+C15
+SA5
+2 p- Monster_028.png
+2 p- Monster_029.png
+SA0
+2 p- Monster_030.png
+C15
+2 p- Monster_031.png
+1 p- Monster_000.png
+C0D
+~~~
+/// - Mode 8
+C02
+1 p- Monster_000.png
+C0E
+SA0
+2 p- Monster_003.png
+C14
+2 p- Monster_004.png
+SA1
+2 p- Monster_005.png
+2 p- Monster_006.png
+SA2
+2 p- Monster_007.png
+2 p- Monster_008.png
+SA3
+2 p- Monster_009.png
+2 p- Monster_010.png
+SA4
+2 p- Monster_011.png
+2 p- Monster_012.png
+C15
+SA5
+2 p- Monster_013.png
+2 p- Monster_014.png
+SA0
+2 p- Monster_015.png
+2 p- Monster_016.png
+2 p- Monster_017.png
+C01
+C15
+SA0
+2 p- Monster_018.png
+2 p- Monster_019.png
+SA1
+2 p- Monster_020.png
+2 p- Monster_021.png
+SA2
+2 p- Monster_022.png
+2 p- Monster_023.png
+SA3
+2 p- Monster_024.png
+2 p- Monster_024.png
+SA4
+2 p- Monster_025.png
+2 p- Monster_026.png
+SA5
+2 p- Monster_027.png
+C15
+2 p- Monster_028.png
+SA0
+2 p- Monster_029.png
+2 p- Monster_030.png
+2 p- Monster_031.png
+1 p- Monster_000.png
+C0D
+~~~
+/// - Mode 9
+1 p- Monster_000.png
+C01
+~~~
+/// - Mode 10
+1 p- Monster_000.png
+C01
+~~~
+/// - Mode 11
+1 p- Monster_000.png
+C01
+~~~
+/// - Mode 12
+C03
+C07
+1 p- Monster_000.png
+4 p- Monster_000.png
+C04
+SF2
+4 p- Monster_001.png
+C22
+2 p- Monster_002.png
+4 p- Monster_000.png
+C01
+C06
+1 p- Monster_000.png
+C0D
+~~~
+/// - End of animation

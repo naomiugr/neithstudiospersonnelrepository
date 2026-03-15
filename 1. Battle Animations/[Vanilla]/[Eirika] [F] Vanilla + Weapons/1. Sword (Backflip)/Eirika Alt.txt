@@ -1,0 +1,219 @@
+#######################################################
+#03 lorf_sw1 Lord Sword
+#
+#When importing to FEditorAdv delete # and after each line.
+#######################################################
+/// - Mode 1               #Melee Animation
+C03                               #Start attack animation; need 07 right after this.
+C07                               #Start attack animation; need 03 right before this.
+1 p- Eirika Alt_000.png
+4 p- Eirika Alt_001.png
+C43                               #Play weapon stance SFE (Clicking noise)
+2 p- Eirika Alt_002.png
+2 p- Eirika Alt_003.png
+10 p- Eirika Alt_004.png
+4 p- Eirika Alt_005.png
+4 p- Eirika Alt_006.png
+5 p- Eirika Alt_007.png
+C24                               #Play sword slashing air SFE
+C04                               #Prepare HP depletion routine; needed to animate return to standing frame after hit
+2 p- Eirika Alt_008.png
+C1A                               #Normal hit
+C1F                               #Play hit SFE (sounds like Eliwood with sword's hit)
+4 p- Eirika Alt_009.png
+C01                               #NOP
+3 p- Eirika Alt_010.png
+3 p- Eirika Alt_011.png
+4 p- Eirika Alt_012.png
+4 p- Eirika Alt_013.png
+C23                               #Play shorter sword swinging SFE
+2 p- Eirika Alt_014.png
+2 p- Eirika Alt_015.png
+2 p- Eirika Alt_016.png
+7 p- Eirika Alt_017.png
+4 p- Eirika Alt_018.png
+2 p- Eirika Alt_019.png
+2 p- Eirika Alt_020.png
+4 p- Eirika Alt_021.png
+4 p- Eirika Alt_022.png
+4 p- Eirika Alt_023.png
+2 p- Eirika Alt_024.png
+2 p- Eirika Alt_025.png
+2 p- Eirika Alt_026.png
+C34                               #Play heavy stepping SFE
+7 p- Eirika Alt_027.png
+2 p- Eirika Alt_028.png
+2 p- Eirika Alt_029.png
+4 p- Eirika Alt_030.png
+1 p- Eirika Alt_000.png
+C06                               #Begin opponent's turn after hit.next code 0D.
+C0D                               #End of dodge animation. preceeded by 0x06
+~~~
+/// - Mode 3               #Melee Critical Animation
+C03                               #Start attack animation; need 07 right after this.
+C07                               #Start attack animation; need 03 right before this.
+1 p- Eirika Alt_000.png
+2 p- Eirika Alt_031.png
+2 p- Eirika Alt_032.png
+C34                               #Play heavy stepping SFE
+3 p- Eirika Alt_033.png
+5 p- Eirika Alt_034.png
+4 p- Eirika Alt_035.png
+3 p- Eirika Alt_036.png
+10 p- Eirika Alt_037.png
+3 p- Eirika Alt_038.png
+C1B                               #Play quick "heavy step" SFE
+3 p- Eirika Alt_039.png
+3 p- Eirika Alt_040.png
+C43                               #Play weapon stance SFE (Clicking noise)
+4 p- Eirika Alt_041.png
+5 p- Eirika Alt_042.png
+15 p- Eirika Alt_043.png
+C24                               #Play sword slashing air SFE
+C04                               #Prepare HP depletion routine; needed to animate return to standing frame after hit
+2 p- Eirika Alt_008.png
+C09                               #Critical hit
+C1F                               #Play hit SFE (sounds like Eliwood with sword's hit)
+4 p- Eirika Alt_009.png
+C01                               #NOP
+3 p- Eirika Alt_010.png
+3 p- Eirika Alt_011.png
+4 p- Eirika Alt_012.png
+4 p- Eirika Alt_013.png
+C23                               #Play shorter sword swinging SFE
+2 p- Eirika Alt_014.png
+2 p- Eirika Alt_015.png
+2 p- Eirika Alt_016.png
+7 p- Eirika Alt_017.png
+4 p- Eirika Alt_018.png
+2 p- Eirika Alt_019.png
+2 p- Eirika Alt_020.png
+4 p- Eirika Alt_021.png
+4 p- Eirika Alt_022.png
+4 p- Eirika Alt_023.png
+2 p- Eirika Alt_024.png
+2 p- Eirika Alt_025.png
+2 p- Eirika Alt_026.png
+C34                               #Play heavy stepping SFE
+7 p- Eirika Alt_027.png
+2 p- Eirika Alt_028.png
+2 p- Eirika Alt_029.png
+4 p- Eirika Alt_030.png
+1 p- Eirika Alt_000.png
+C06                               #Begin opponent's turn after hit.next code 0D.
+C0D                               #End of dodge animation. preceeded by 0x06
+~~~
+/// - Mode 5               #Ranged Animation 
+C03                               #Start attack animation; need 07 right after this.
+C07                               #Start attack animation; need 03 right before this.
+1 p- Eirika Alt_000.png
+2 p- Eirika Alt_044.png
+2 p- Eirika Alt_045.png
+C05                               #Call spell associated with equipped weapon
+2 p- Eirika Alt_046.png
+C01                               #NOP
+2 p- Eirika Alt_044.png
+1 p- Eirika Alt_000.png
+C06                               #Begin opponent's turn after hit.next code 0D.
+C0D                               #End of dodge animation. preceeded by 0x06
+~~~
+/// - Mode 6               #Ranged Critical Animation
+C03                               #Start attack animation; need 07 right after this.
+C07                               #Start attack animation; need 03 right before this.
+1 p- Eirika Alt_000.png
+2 p- Eirika Alt_044.png
+2 p- Eirika Alt_045.png
+2 p- Eirika Alt_046.png
+2 p- Eirika Alt_047.png
+2 p- Eirika Alt_048.png
+2 p- Eirika Alt_047.png
+2 p- Eirika Alt_048.png
+2 p- Eirika Alt_047.png
+2 p- Eirika Alt_048.png
+2 p- Eirika Alt_047.png
+2 p- Eirika Alt_048.png
+C05                               #Call spell associated with equipped weapon
+1 p- Eirika Alt_046.png
+C01                               #NOP
+2 p- Eirika Alt_044.png
+1 p- Eirika Alt_000.png
+C06                               #Begin opponent's turn after hit.next code 0D.
+C0D                               #End of dodge animation. preceeded by 0x06
+~~~
+/// - Mode 7               #Dodge Melee Attack
+C02                               #Start of dodge
+1 p- Eirika Alt_000.png
+C0E                               #Start of dodging frames (should go after standing frame and before dodging animation)
+2 p- Eirika Alt_049.png
+2 p- Eirika Alt_050.png
+1 p- Eirika Alt_051.png
+C01                               #NOP
+2 p- Eirika Alt_050.png
+C0D                               #End of dodge animation. preceeded by 0x06
+~~~
+/// - Mode 8               #Dodge Ranged Attack
+C02                               #Start of dodge
+1 p- Eirika Alt_000.png
+C0E                               #Start of dodging frames (should go after standing frame and before dodging animation)
+2 p- Eirika Alt_049.png
+2 p- Eirika Alt_050.png
+1 p- Eirika Alt_051.png
+C01                               #NOP
+2 p- Eirika Alt_050.png
+C0D                               #End of dodge animation. preceeded by 0x06
+~~~
+/// - Mode 9               #Equiped with Melee Weapon
+1 p- Eirika Alt_000.png
+C01                               #NOP
+~~~
+/// - Mode 10               #Standing motions
+1 p- Eirika Alt_000.png
+C01                               #NOP
+~~~
+/// - Mode 11               #Equiped with Ranged weapon
+1 p- Eirika Alt_000.png
+C01                               #NOP
+~~~
+/// - Mode 12               #Attack Missed Animation
+C03                               #Start attack animation; need 07 right after this.
+C07                               #Start attack animation; need 03 right before this.
+1 p- Eirika Alt_000.png
+4 p- Eirika Alt_001.png
+C43                               #Play weapon stance SFE (Clicking noise)
+2 p- Eirika Alt_002.png
+2 p- Eirika Alt_003.png
+10 p- Eirika Alt_004.png
+4 p- Eirika Alt_005.png
+4 p- Eirika Alt_006.png
+5 p- Eirika Alt_007.png
+C24                               #Play sword slashing air SFE
+C04                               #Prepare HP depletion routine; needed to animate return to standing frame after hit
+4 p- Eirika Alt_052.png
+C01                               #NOP
+3 p- Eirika Alt_053.png
+3 p- Eirika Alt_054.png
+4 p- Eirika Alt_012.png
+4 p- Eirika Alt_013.png
+2 p- Eirika Alt_014.png
+2 p- Eirika Alt_015.png
+2 p- Eirika Alt_016.png
+7 p- Eirika Alt_017.png
+C34                               #Play heavy stepping SFE
+4 p- Eirika Alt_018.png
+2 p- Eirika Alt_019.png
+2 p- Eirika Alt_020.png
+4 p- Eirika Alt_021.png
+4 p- Eirika Alt_022.png
+4 p- Eirika Alt_023.png
+2 p- Eirika Alt_024.png
+2 p- Eirika Alt_025.png
+2 p- Eirika Alt_026.png
+7 p- Eirika Alt_027.png
+2 p- Eirika Alt_028.png
+2 p- Eirika Alt_029.png
+4 p- Eirika Alt_030.png
+1 p- Eirika Alt_000.png
+C06                               #Begin opponent's turn after hit.next code 0D.
+C0D                               #End of dodge animation. preceeded by 0x06
+~~~
+/// - End of animation

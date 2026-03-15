@@ -1,0 +1,263 @@
+#######################################################
+#0F allf_sw1 Lord Sword
+#
+#When importing to FEditorAdv delete # and after each line.
+#######################################################
+/// - Mode 1               #Melee Animation
+C03                               #Start attack animation; need 07 right after this.
+C07                               #Start attack animation; need 03 right before this.
+1 p- Catherine Sword_000.png
+4 p- Catherine Sword_001.png
+4 p- Catherine Sword_002.png
+3 p- Catherine Sword_003.png
+4 p- Catherine Sword_004.png
+4 p- Catherine Sword_005.png
+4 p- Catherine Sword_006.png
+8 p- Catherine Sword_007.png
+2 p- Catherine Sword_008.png
+1 p- Catherine Sword_009.png
+25 p- Catherine Sword_010.png
+1 p- Catherine Sword_011.png
+2 p- Catherine Sword_012.png
+C04                               #Prepare HP depletion routine; needed to animate return to standing frame after hit; Magic only.
+4 p- Catherine Sword_013.png
+C24                               #Play sword slashing air SFE
+7 p- Catherine Sword_014.png
+C1A                               #Normal hit
+C20                               #Play hit SFE (sounds like Knight Lord with Durandal's hit)
+1 p- Catherine Sword_015.png
+1 p- Catherine Sword_016.png
+1 p- Catherine Sword_017.png
+1 p- Catherine Sword_010.png
+C01                               #NOP
+3 p- Catherine Sword_018.png
+2 p- Catherine Sword_019.png
+2 p- Catherine Sword_020.png
+2 p- Catherine Sword_021.png
+2 p- Catherine Sword_022.png
+1 p- Catherine Sword_023.png
+1 p- Catherine Sword_024.png
+1 p- Catherine Sword_025.png
+1 p- Catherine Sword_026.png
+1 p- Catherine Sword_027.png
+1 p- Catherine Sword_028.png
+1 p- Catherine Sword_029.png
+C34                               #Play heavy stepping SFE
+1 p- Catherine Sword_030.png
+1 p- Catherine Sword_030.png
+C06                               #Begin opponent's turn after hit.next code 0D.
+1 p- Catherine Sword_031.png
+1 p- Catherine Sword_031.png
+2 p- Catherine Sword_032.png
+3 p- Catherine Sword_033.png
+C0D                               #End of dodge animation. preceeded by 0x06
+~~~
+/// - Mode 3               #Melee Critical Animation
+C03                               #Start attack animation; need 07 right after this.
+C07                               #Start attack animation; need 03 right before this.
+1 p- Catherine Sword_000.png
+3 p- Catherine Sword_001.png
+2 p- Catherine Sword_034.png
+2 p- Catherine Sword_035.png
+3 p- Catherine Sword_036.png
+4 p- Catherine Sword_037.png
+3 p- Catherine Sword_038.png
+3 p- Catherine Sword_039.png
+2 p- Catherine Sword_040.png
+6 p- Catherine Sword_041.png
+1 p- Catherine Sword_042.png
+1 p- Catherine Sword_042.png
+1 p- Catherine Sword_042.png
+1 p- Catherine Sword_043.png
+1 p- Catherine Sword_044.png
+1 p- Catherine Sword_045.png
+1 p- Catherine Sword_046.png
+1 p- Catherine Sword_047.png
+1 p- Catherine Sword_048.png
+1 p- Catherine Sword_049.png
+1 p- Catherine Sword_050.png
+1 p- Catherine Sword_051.png
+1 p- Catherine Sword_052.png
+1 p- Catherine Sword_053.png
+1 p- Catherine Sword_054.png
+1 p- Catherine Sword_055.png
+1 p- Catherine Sword_054.png
+1 p- Catherine Sword_055.png
+1 p- Catherine Sword_054.png
+1 p- Catherine Sword_055.png
+1 p- Catherine Sword_054.png
+1 p- Catherine Sword_055.png
+1 p- Catherine Sword_054.png
+1 p- Catherine Sword_055.png
+1 p- Catherine Sword_056.png
+1 p- Catherine Sword_056.png
+20 p- Catherine Sword_010.png
+C22                               #Play short sword swinging SFE
+10 p- Catherine Sword_010.png
+C20                               #Play hit SFE (sounds like Knight Lord with Durandal's hit)
+2 p- Catherine Sword_057.png
+2 p- Catherine Sword_058.png
+10 p- Catherine Sword_010.png
+C20                               #Play hit SFE (sounds like Knight Lord with Durandal's hit)
+2 p- Catherine Sword_059.png
+2 p- Catherine Sword_010.png
+2 p- Catherine Sword_060.png
+10 p- Catherine Sword_010.png
+C20                               #Play hit SFE (sounds like Knight Lord with Durandal's hit)
+2 p- Catherine Sword_061.png
+1 p- Catherine Sword_010.png
+1 p- Catherine Sword_062.png
+10 p- Catherine Sword_010.png
+C20                               #Play hit SFE (sounds like Knight Lord with Durandal's hit)
+1 p- Catherine Sword_063.png
+1 p- Catherine Sword_010.png
+1 p- Catherine Sword_064.png
+10 p- Catherine Sword_010.png
+C04                               #Prepare HP depletion routine; needed to animate return to standing frame after hit; Magic only.
+1 p- Catherine Sword_065.png
+2 p- Catherine Sword_013.png
+C24                               #Play sword slashing air SFE
+7 p- Catherine Sword_014.png
+C08                               #Critical hit
+C20                               #Play hit SFE (sounds like Knight Lord with Durandal's hit)
+1 p- Catherine Sword_015.png
+1 p- Catherine Sword_016.png
+2 p- Catherine Sword_017.png
+1 p- Catherine Sword_010.png
+C01                               #NOP
+3 p- Catherine Sword_018.png
+2 p- Catherine Sword_019.png
+2 p- Catherine Sword_020.png
+2 p- Catherine Sword_021.png
+2 p- Catherine Sword_022.png
+1 p- Catherine Sword_023.png
+1 p- Catherine Sword_024.png
+1 p- Catherine Sword_025.png
+1 p- Catherine Sword_026.png
+1 p- Catherine Sword_027.png
+1 p- Catherine Sword_028.png
+1 p- Catherine Sword_029.png
+1 p- Catherine Sword_030.png
+C34                               #Play heavy stepping SFE
+1 p- Catherine Sword_030.png
+1 p- Catherine Sword_031.png
+C06                               #Begin opponent's turn after hit.next code 0D.
+1 p- Catherine Sword_031.png
+2 p- Catherine Sword_032.png
+3 p- Catherine Sword_033.png
+C0D                               #End of dodge animation. preceeded by 0x06
+~~~
+/// - Mode 5               #Ranged Animation 
+C03                               #Start attack animation; need 07 right after this.
+C07                               #Start attack animation; need 03 right before this.
+1 p- Catherine Sword_000.png
+C22                               #Play short sword swinging SFE
+3 p- Catherine Sword_066.png
+C05                               #Call spell associated with equipped weapon
+1 p- Catherine Sword_067.png
+C01                               #NOP
+C23                               #Play shorter sword swinging SFE
+3 p- Catherine Sword_066.png
+C06                               #Begin opponent's turn after hit.next code 0D.
+C0D                               #End of dodge animation. preceeded by 0x06
+~~~
+/// - Mode 6               #Ranged Critical Animation
+C03                               #Start attack animation; need 07 right after this.
+C07                               #Start attack animation; need 03 right before this.
+1 p- Catherine Sword_000.png
+C22                               #Play short sword swinging SFE
+3 p- Catherine Sword_066.png
+5 p- Catherine Sword_067.png
+4 p- Catherine Sword_068.png
+1 p- Catherine Sword_067.png
+3 p- Catherine Sword_068.png
+2 p- Catherine Sword_067.png
+4 p- Catherine Sword_068.png
+4 p- Catherine Sword_067.png
+2 p- Catherine Sword_068.png
+12 p- Catherine Sword_067.png
+C05                               #Call spell associated with equipped weapon
+1 p- Catherine Sword_067.png
+C01                               #NOP
+C23                               #Play shorter sword swinging SFE
+3 p- Catherine Sword_066.png
+C06                               #Begin opponent's turn after hit.next code 0D.
+C0D                               #End of dodge animation. preceeded by 0x06
+~~~
+/// - Mode 7               #Dodge Melee Attack
+C02                               #Start of dodge
+1 p- Catherine Sword_000.png
+C0E                               #Start of dodging frames (should go after standing frame and before dodging animation)
+1 p- Catherine Sword_069.png
+C01                               #NOP
+C0D                               #End of dodge animation. preceeded by 0x06
+~~~
+/// - Mode 8               #Dodge Ranged Attack
+C02                               #Start of dodge
+1 p- Catherine Sword_000.png
+C0E                               #Start of dodging frames (should go after standing frame and before dodging animation)
+3 p- Catherine Sword_069.png
+C01                               #NOP
+C0D                               #End of dodge animation. preceeded by 0x06
+~~~
+/// - Mode 9               #Equiped with Melee Weapon
+1 p- Catherine Sword_000.png
+C01                               #NOP
+~~~
+/// - Mode 10               #Standing motions
+1 p- Catherine Sword_000.png
+C01                               #NOP
+~~~
+/// - Mode 11               #Equiped with Ranged weapon
+1 p- Catherine Sword_000.png
+C01                               #NOP
+~~~
+/// - Mode 12               #Attack Missed Animation
+C03                               #Start attack animation; need 07 right after this.
+C07                               #Start attack animation; need 03 right before this.
+1 p- Catherine Sword_000.png
+4 p- Catherine Sword_001.png
+4 p- Catherine Sword_002.png
+3 p- Catherine Sword_003.png
+4 p- Catherine Sword_004.png
+4 p- Catherine Sword_005.png
+4 p- Catherine Sword_006.png
+8 p- Catherine Sword_007.png
+2 p- Catherine Sword_008.png
+1 p- Catherine Sword_009.png
+25 p- Catherine Sword_010.png
+1 p- Catherine Sword_011.png
+2 p- Catherine Sword_012.png
+C04                               #Prepare HP depletion routine; needed to animate return to standing frame after hit; Magic only.
+4 p- Catherine Sword_013.png
+C23                               #Play shorter sword swinging SFE
+3 p- Catherine Sword_070.png
+C22                               #Play short sword swinging SFE
+1 p- Catherine Sword_015.png
+1 p- Catherine Sword_016.png
+1 p- Catherine Sword_017.png
+1 p- Catherine Sword_010.png
+C01                               #NOP
+3 p- Catherine Sword_018.png
+2 p- Catherine Sword_019.png
+2 p- Catherine Sword_020.png
+2 p- Catherine Sword_021.png
+2 p- Catherine Sword_022.png
+1 p- Catherine Sword_023.png
+1 p- Catherine Sword_071.png
+1 p- Catherine Sword_025.png
+1 p- Catherine Sword_026.png
+1 p- Catherine Sword_027.png
+1 p- Catherine Sword_028.png
+1 p- Catherine Sword_029.png
+C34                               #Play heavy stepping SFE
+1 p- Catherine Sword_030.png
+1 p- Catherine Sword_030.png
+C06                               #Begin opponent's turn after hit.next code 0D.
+1 p- Catherine Sword_031.png
+1 p- Catherine Sword_031.png
+2 p- Catherine Sword_032.png
+3 p- Catherine Sword_033.png
+C0D                               #End of dodge animation. preceeded by 0x06
+~~~
+/// - End of animation

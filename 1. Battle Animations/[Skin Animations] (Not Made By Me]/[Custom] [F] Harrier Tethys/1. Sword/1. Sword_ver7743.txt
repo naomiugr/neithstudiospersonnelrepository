@@ -1,0 +1,270 @@
+#######################################################
+#FD 飛テティ (ﾌｧﾙｺﾝﾅｲﾄ) 剣
+#
+#FEditorAdvにインポートする時には各行の#以降を削除してください。
+#######################################################
+/// - Mode 1               #至近攻撃のヒット時のモーション
+C03                               #攻撃モーション開始 この後に07が来る
+C07                               #攻撃モーション開始 この前に03が来る
+1 p- 1. Sword_ver7743_000.png
+C23                               #剣を振る音　小さい
+3 p- 1. Sword_ver7743_001.png
+2 p- 1. Sword_ver7743_002.png
+C25                               #ブンという音
+5 p- 1. Sword_ver7743_003.png
+10 p- 1. Sword_ver7743_004.png
+7 p- 1. Sword_ver7743_005.png
+C25                               #ブンという音
+5 p- 1. Sword_ver7743_006.png
+2 p- 1. Sword_ver7743_007.png
+3 p- 1. Sword_ver7743_008.png
+3 p- 1. Sword_ver7743_009.png
+C25                               #ブンという音
+2 p- 1. Sword_ver7743_010.png
+15 p- 1. Sword_ver7743_010.png
+C23                               #剣を振る音　小さい
+C04                               #魔法攻撃が命中した時に、HPを減らす準備をする。命中後に立ちモーションへ戻す必要あり。
+3 p- 1. Sword_ver7743_011.png
+C1A                               #ノーマルヒットのエフェクト
+C23                               #剣を振る音　小さい
+C1F                               #クリティカルの効果音
+4 p- 1. Sword_ver7743_012.png
+4 p- 1. Sword_ver7743_013.png
+C01                               #NOP
+C25                               #ブンという音
+3 p- 1. Sword_ver7743_014.png
+2 p- 1. Sword_ver7743_015.png
+1 p- 1. Sword_ver7743_016.png
+C35                               #翼の音の再生
+3 p- 1. Sword_ver7743_017.png
+3 p- 1. Sword_ver7743_018.png
+2 p- 1. Sword_ver7743_019.png
+2 p- 1. Sword_ver7743_020.png
+2 p- 1. Sword_ver7743_021.png
+2 p- 1. Sword_ver7743_022.png
+2 p- 1. Sword_ver7743_023.png
+2 p- 1. Sword_ver7743_024.png
+2 p- 1. Sword_ver7743_025.png
+1 p- 1. Sword_ver7743_026.png
+C25                               #ブンという音
+2 p- 1. Sword_ver7743_027.png
+2 p- 1. Sword_ver7743_028.png
+C06                               #攻撃アニメ終了 後に0Dが来る
+3 p- 1. Sword_ver7743_000.png
+C0D                               #攻撃アニメ終了 前に06が来る
+~~~
+/// - Mode 3               #至近攻撃必殺時のモーション
+C03                               #攻撃モーション開始 この後に07が来る
+C07                               #攻撃モーション開始 この前に03が来る
+1 p- 1. Sword_ver7743_000.png
+C23                               #剣を振る音　小さい
+3 p- 1. Sword_ver7743_001.png
+2 p- 1. Sword_ver7743_002.png
+C25                               #ブンという音
+5 p- 1. Sword_ver7743_003.png
+10 p- 1. Sword_ver7743_004.png
+7 p- 1. Sword_ver7743_005.png
+C25                               #ブンという音
+5 p- 1. Sword_ver7743_006.png
+2 p- 1. Sword_ver7743_007.png
+3 p- 1. Sword_ver7743_008.png
+3 p- 1. Sword_ver7743_009.png
+C25                               #ブンという音
+7 p- 1. Sword_ver7743_010.png
+10 p- 1. Sword_ver7743_029.png
+C3A                               #踊り子の音
+2 p- 1. Sword_ver7743_030.png
+2 p- 1. Sword_ver7743_031.png
+2 p- 1. Sword_ver7743_032.png
+2 p- 1. Sword_ver7743_033.png
+2 p- 1. Sword_ver7743_034.png
+2 p- 1. Sword_ver7743_035.png
+2 p- 1. Sword_ver7743_036.png
+2 p- 1. Sword_ver7743_037.png
+2 p- 1. Sword_ver7743_038.png
+2 p- 1. Sword_ver7743_039.png
+2 p- 1. Sword_ver7743_040.png
+2 p- 1. Sword_ver7743_041.png
+2 p- 1. Sword_ver7743_042.png
+2 p- 1. Sword_ver7743_043.png
+2 p- 1. Sword_ver7743_044.png
+2 p- 1. Sword_ver7743_045.png
+2 p- 1. Sword_ver7743_046.png
+5 p- 1. Sword_ver7743_047.png
+10 p- 1. Sword_ver7743_048.png
+C23                               #剣を振る音　小さい
+C04                               #魔法攻撃が命中した時に、HPを減らす準備をする。命中後に立ちモーションへ戻す必要あり。
+3 p- 1. Sword_ver7743_049.png
+C1A                               #ノーマルヒットのエフェクト
+C23                               #剣を振る音　小さい
+C1F                               #クリティカルの効果音
+4 p- 1. Sword_ver7743_050.png
+4 p- 1. Sword_ver7743_051.png
+C01                               #NOP
+C25                               #ブンという音
+3 p- 1. Sword_ver7743_014.png
+2 p- 1. Sword_ver7743_015.png
+1 p- 1. Sword_ver7743_016.png
+C35                               #翼の音の再生
+3 p- 1. Sword_ver7743_017.png
+3 p- 1. Sword_ver7743_018.png
+2 p- 1. Sword_ver7743_019.png
+2 p- 1. Sword_ver7743_020.png
+2 p- 1. Sword_ver7743_021.png
+2 p- 1. Sword_ver7743_022.png
+2 p- 1. Sword_ver7743_023.png
+2 p- 1. Sword_ver7743_024.png
+2 p- 1. Sword_ver7743_025.png
+1 p- 1. Sword_ver7743_026.png
+C25                               #ブンという音
+2 p- 1. Sword_ver7743_027.png
+2 p- 1. Sword_ver7743_028.png
+C06                               #攻撃アニメ終了 後に0Dが来る
+3 p- 1. Sword_ver7743_000.png
+C0D                               #攻撃アニメ終了 前に06が来る
+~~~
+/// - Mode 5               #間接攻撃時のモーション
+C03                               #攻撃モーション開始 この後に07が来る
+C07                               #攻撃モーション開始 この前に03が来る
+1 p- 1. Sword_ver7743_000.png
+4 p- 1. Sword_ver7743_004.png
+C22                               #リンロードの剣を振る音
+C05                               #魔法の呼び出し
+1 p- 1. Sword_ver7743_005.png
+C23                               #剣を振る音　小さい
+C01                               #NOP
+C06                               #攻撃アニメ終了 後に0Dが来る
+4 p- 1. Sword_ver7743_004.png
+C0D                               #攻撃アニメ終了 前に06が来る
+~~~
+/// - Mode 6               #間接攻撃必殺時のモーション
+C03                               #攻撃モーション開始 この後に07が来る
+C07                               #攻撃モーション開始 この前に03が来る
+1 p- 1. Sword_ver7743_000.png
+C23                               #剣を振る音　小さい
+3 p- 1. Sword_ver7743_001.png
+2 p- 1. Sword_ver7743_002.png
+C25                               #ブンという音
+5 p- 1. Sword_ver7743_003.png
+10 p- 1. Sword_ver7743_004.png
+7 p- 1. Sword_ver7743_005.png
+C25                               #ブンという音
+5 p- 1. Sword_ver7743_006.png
+2 p- 1. Sword_ver7743_007.png
+3 p- 1. Sword_ver7743_008.png
+3 p- 1. Sword_ver7743_009.png
+C25                               #ブンという音
+7 p- 1. Sword_ver7743_010.png
+10 p- 1. Sword_ver7743_029.png
+C3A                               #踊り子の音
+2 p- 1. Sword_ver7743_030.png
+2 p- 1. Sword_ver7743_031.png
+2 p- 1. Sword_ver7743_032.png
+2 p- 1. Sword_ver7743_033.png
+2 p- 1. Sword_ver7743_034.png
+2 p- 1. Sword_ver7743_035.png
+2 p- 1. Sword_ver7743_036.png
+2 p- 1. Sword_ver7743_037.png
+2 p- 1. Sword_ver7743_038.png
+2 p- 1. Sword_ver7743_039.png
+2 p- 1. Sword_ver7743_040.png
+2 p- 1. Sword_ver7743_041.png
+2 p- 1. Sword_ver7743_042.png
+2 p- 1. Sword_ver7743_043.png
+2 p- 1. Sword_ver7743_044.png
+2 p- 1. Sword_ver7743_045.png
+2 p- 1. Sword_ver7743_046.png
+C05                               #魔法の呼び出し
+5 p- 1. Sword_ver7743_047.png
+10 p- 1. Sword_ver7743_048.png
+C01                               #NOP
+C23                               #剣を振る音　小さい
+C06                               #攻撃アニメ終了 後に0Dが来る
+4 p- 1. Sword_ver7743_010.png
+4 p- 1. Sword_ver7743_005.png
+4 p- 1. Sword_ver7743_004.png
+C0D                               #攻撃アニメ終了 前に06が来る
+~~~
+/// - Mode 7               #被至近攻撃回避時のモーション
+C02                               #回避モーションの始め
+4 p- 1. Sword_ver7743_000.png
+C0E                               #回避フレームの開始。棒立ちフレームの後にこのコマンドを入れてください。
+3 p- 1. Sword_ver7743_052.png
+C01                               #NOP
+3 p- 1. Sword_ver7743_001.png
+3 p- 1. Sword_ver7743_000.png
+C0D                               #攻撃アニメ終了 前に06が来る
+~~~
+/// - Mode 8               #被間接攻撃回避時のモーション
+C02                               #回避モーションの始め
+4 p- 1. Sword_ver7743_000.png
+C0E                               #回避フレームの開始。棒立ちフレームの後にこのコマンドを入れてください。
+3 p- 1. Sword_ver7743_052.png
+C01                               #NOP
+3 p- 1. Sword_ver7743_001.png
+3 p- 1. Sword_ver7743_000.png
+C0D                               #攻撃アニメ終了 前に06が来る
+~~~
+/// - Mode 9               #至近時棒立ちモーション
+1 p- 1. Sword_ver7743_000.png
+C01                               #NOP
+~~~
+/// - Mode 10               #棒立ちモーション
+1 p- 1. Sword_ver7743_000.png
+C01                               #NOP
+~~~
+/// - Mode 11               #間接時棒立ちモーション
+1 p- 1. Sword_ver7743_000.png
+C01                               #NOP
+~~~
+/// - Mode 12               #攻撃ミス時のモーション
+C03                               #攻撃モーション開始 この後に07が来る
+C07                               #攻撃モーション開始 この前に03が来る
+1 p- 1. Sword_ver7743_000.png
+C23                               #剣を振る音　小さい
+3 p- 1. Sword_ver7743_001.png
+2 p- 1. Sword_ver7743_002.png
+C25                               #ブンという音
+5 p- 1. Sword_ver7743_003.png
+10 p- 1. Sword_ver7743_004.png
+7 p- 1. Sword_ver7743_005.png
+C25                               #ブンという音
+5 p- 1. Sword_ver7743_006.png
+2 p- 1. Sword_ver7743_007.png
+3 p- 1. Sword_ver7743_008.png
+3 p- 1. Sword_ver7743_009.png
+C25                               #ブンという音
+2 p- 1. Sword_ver7743_010.png
+15 p- 1. Sword_ver7743_010.png
+C23                               #剣を振る音　小さい
+C04                               #魔法攻撃が命中した時に、HPを減らす準備をする。命中後に立ちモーションへ戻す必要あり。
+3 p- 1. Sword_ver7743_011.png
+C1A                               #ノーマルヒットのエフェクト
+C23                               #剣を振る音　小さい
+C1F                               #クリティカルの効果音
+4 p- 1. Sword_ver7743_053.png
+4 p- 1. Sword_ver7743_013.png
+C01                               #NOP
+C25                               #ブンという音
+3 p- 1. Sword_ver7743_014.png
+2 p- 1. Sword_ver7743_015.png
+1 p- 1. Sword_ver7743_016.png
+C35                               #翼の音の再生
+3 p- 1. Sword_ver7743_017.png
+3 p- 1. Sword_ver7743_018.png
+2 p- 1. Sword_ver7743_019.png
+2 p- 1. Sword_ver7743_020.png
+2 p- 1. Sword_ver7743_021.png
+2 p- 1. Sword_ver7743_022.png
+2 p- 1. Sword_ver7743_023.png
+2 p- 1. Sword_ver7743_024.png
+2 p- 1. Sword_ver7743_025.png
+1 p- 1. Sword_ver7743_026.png
+C25                               #ブンという音
+2 p- 1. Sword_ver7743_027.png
+2 p- 1. Sword_ver7743_028.png
+C06                               #攻撃アニメ終了 後に0Dが来る
+3 p- 1. Sword_ver7743_000.png
+C0D                               #攻撃アニメ終了 前に06が来る
+~~~
+/// - End of animation
